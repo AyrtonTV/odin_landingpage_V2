@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+header{
+    background-color: #1f2937;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.links{
+    display: flex;
+}
+
+.links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.links a:hover{
+    background-color: aquamarine;
+    color: #1f2937;
+}
+
+.logo{
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px;
+}
