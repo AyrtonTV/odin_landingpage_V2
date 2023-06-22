@@ -4,9 +4,10 @@
     box-sizing: border-box;
     /* border: 1px solid red; */
 }
-
+/* navbar */
 header{
     background-color: #1f2937;
+    height: 10vh;
 }
 nav{
     display: flex;
@@ -29,12 +30,65 @@ nav{
 }
 
 .links a:hover{
-    background-color: aquamarine;
-    color: #1f2937;
+    color: #3882f6;
 }
 
 .logo{
-    width: 40px;
+    width: 65px;
     border-radius: 50%;
     margin: 5px;
+}
+
+/* Hero */
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    height: 90vh;
+    padding: 50px;
+    gap: 75px;
+}
+
+.top-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.descript{
+    font-size: 18px;
+    text-align: justify;
+    color: #e5e7eb;
+}
+
+.moka{
+    width: 35%;
+    border-radius: 15px;
+    box-shadow: 0 0 3px white;
+}
+
+.signup{
+    padding: 15px 30px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.signup:hover{
+    cursor: pointer;
+    background-color: #6aa1f9;
+    color: #1f2937;
+    transform: translateY(-8px);
 }
