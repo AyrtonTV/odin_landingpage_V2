@@ -15,6 +15,11 @@ nav{
     height: auto;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
+
 .links{
     display: flex;
 }
@@ -98,11 +103,13 @@ nav{
     display: flex;
     flex-direction: column;
     height: 50vh;
+    padding: 10px;
+    margin: 35px 0;
 }
 
 .title2{
     text-align: center;
-    margin: 15px;
+    margin: 5px 0 10px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -112,7 +119,7 @@ nav{
     display: flex;
     flex: 1;
     justify-content: space-around;
-    margin: 5px 0 5px;
+    margin: 5px 0 8px;
 }
 
 .galeria img{
@@ -125,6 +132,7 @@ nav{
     display: flex;
     flex: 1;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .pies p{
@@ -132,4 +140,53 @@ nav{
     text-align: center;
     margin-bottom: 30px;
     font-size: 18px;
+    margin-bottom: 10px;
 }
+
+/* Quote */
+#quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 10px;
+    height: 50vh;
+}
+
+.frase{
+    padding: 30px;
+    margin: 15px 30px 5px;
+    display: block;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    text-align: center;
+}
+
+.autor{
+    display: block;
+    padding: 0 30px;
+    align-self: self-end;
+    margin-right: 35px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Call to action */
+#call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.tarjeta{
+    display: flex;
+    gap: 10px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 15px 20px;
+    flex: 1;
+}
+
