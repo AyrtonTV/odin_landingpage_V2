@@ -161,11 +161,6 @@ main{
     height: 50vh;
 }
 
-@media (max-width: 1250px){
-    #quote{
-        flex: 1;
-    }
-}
 .frase{
     padding: 30px;
     margin: 15px 30px 5px;
@@ -247,4 +242,34 @@ footer{
     color: #f9faf8;
     padding: 5px;
     height: 5vh;
+}
+
+@media (max-width: 1250px){
+    #quote{
+        flex: 1;
+    }
+}
+
+@media (max-width: 512px){
+    nav{
+        justify-content: center;
+    }
+    .links a{
+        width: auto;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .descript{
+        font-size: 14px;
+    }
+    .signup{
+        font-size: 10px;
+    }
+    .title2{
+        font-size: 24px;
+    }
+    .frase{
+        font-size: 20px;
+    }
 }
