@@ -47,7 +47,7 @@ nav{
     background-color: #1f2937;
     height: 90vh;
     padding: 50px;
-    gap: 75px;
+    gap: 70px;
 }
 
 .top-left{
@@ -70,14 +70,14 @@ nav{
 }
 
 .moka{
-    width: 35%;
+    width: 34%;
     border-radius: 15px;
     box-shadow: 0 0 3px white;
 }
 
 .signup{
     padding: 15px 30px;
-    margin: 15px;
+    margin: 12px;
     border-radius: 10px;
     background-color: #3882f6;
     color: #e5e7eb;
@@ -91,4 +91,45 @@ nav{
     background-color: #6aa1f9;
     color: #1f2937;
     transform: translateY(-8px);
+}
+
+/* Middle-Top */
+#middle-top{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.title2{
+    text-align: center;
+    margin: 15px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.galeria{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin: 5px 0 5px;
+}
+
+.galeria img{
+    width: 20%;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+
+.pies{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.pies p{
+    width: 20%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
 }
