@@ -187,6 +187,42 @@ main{
     background-color: #3882f6;
     border-radius: 10px;
     padding: 15px 20px;
-    flex: 1;
+    box-shadow: 1px 1px 2px black;
 }
 
+.texto{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.texto .title3{
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.texto .explica{
+    text-align: center;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.action{
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: none;
+    margin: 15px;
+    font-size: 15px;
+    background-color: #e5e7eb;
+    transition: 1s;
+}
+
+.action:hover{
+    background-color: #1f2937;
+    cursor: pointer;
+    color: #e5e7eb;
+    transform: translateY(-5px);
+}
