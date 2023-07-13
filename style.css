@@ -113,7 +113,7 @@ main{
     flex-direction: column;
     height: 50vh;
     padding: 10px;
-    margin: 35px 0;
+    margin: 35px 0 35px;
 }
 
 .title2{
@@ -141,7 +141,7 @@ main{
     display: flex;
     flex: 1;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .pies p{
@@ -161,7 +161,8 @@ main{
     justify-content: center;
     background-color: #e5e7eb;
     padding: 10px;
-    height: 50vh;
+    height: 45vh;
+    margin-top: 15px;
 }
 
 .frase{
